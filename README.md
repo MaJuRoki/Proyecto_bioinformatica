@@ -18,7 +18,7 @@ El script realiza las siguientes tareas:
   - ANOVA para datos con distribución normal.
   - Análisis post hoc con la prueba de Tukey para identificar diferencias significativas entre tratamientos
 - Visualización generando gráficos
-- 
+ 
 #### Resultados
 A pesar de tener celdas unidas en la base de datos original, el script fácilmente la ordena para no tener "casillas vacías" NaN. La prueba de Shapiro muestra que la mayoría de los datos presentan una distribución normal, ya que solo algunos datos que podrían considerarse valores atípicos son los que se muestran no normales.
 Las pruebas de ANOVA muestran que el No. de Secuencias y las OTUs observadas no se ven afectadas por lo que son las claves, los tratamientos y el conjunto de clave:tratamiento. Sin embargo, la Riqueza si parece ser un poco afectada, por lo que entra al análsis post-hoc conla prueba de Tukey. Es en este análisis donde vemos que no hay diferencias significativas a pesar de que la ANOVA nos decía que si. Todos los gráficos ayudan en la visualización de los resultados.
